@@ -24,5 +24,5 @@ df_to_export <- data.frame(
   rats_after = rats_after
 )
 
-write.csv(df_to_export, "data_generation_output/data.csv", row.names = TRUE)
+write.csv(df_to_export, "datasets/data.csv", row.names = TRUE)
 print("Data written to CSV")
