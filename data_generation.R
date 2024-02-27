@@ -1,6 +1,6 @@
 # Author: Matthew Vallance
 # Date: 13/02/24
-# Description: Data generation script
+# Description: Data generation script (Task: 1a, 1b)
 
 # Weights of 200 mice before: mean = 20, and variance = 2
 mice_before <- rnorm(200, 20, sd = sqrt(2))
