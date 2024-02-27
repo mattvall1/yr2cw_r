@@ -8,9 +8,9 @@ mice_rats_data <- read.csv("datasets/data.csv", header=TRUE)
 
 # Remove columns we don't need
 mice_rats_data[1] <- NULL
-# mice_rats_data format: mice_before is 1, mice_after is 2, rats_before is 3, rats_after is 4.
-summary(mice_rats_data)
 
+# View data summary
+summary(mice_rats_data)
 
 # Create a new dataframe with just the data we need to create the first density chart
 mice_before_after <- data.frame(
