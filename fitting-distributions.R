@@ -11,9 +11,8 @@ mice_rats_data[1] <- NULL
 
 # Create new dataframe with the data we need to examine
 rats <- data.frame(
-  Category = c(rep("Rats before", length(mice_rats_data$rats_before)),
-               rep("Rats after", length(mice_rats_data$rats_after))),
-  values = c(mice_rats_data$rats_before, mice_rats_data$rats_after)
+  Category = rep("Rats before", length(mice_rats_data$rats_before)),
+  values = mice_rats_data$rats_before
 )
 
 # Assuming 'rats' is your data
